@@ -1,6 +1,7 @@
 import Header from "../../components/header/header";
 import Container from "../../components/container/Container";
 import Article from "../../components/article/Article";
+import NotFound from "../../components/404/NotFound";
 
 import { getArticleByTimestamp } from "../../lib/articles";
 
@@ -10,7 +11,7 @@ export default function ArticlePage({ error, article }){
             <Header nav={{to: "/login", text: "Login"}}/>
             <Container>
                 {error
-                ? <p>{error}</p>
+                ? <NotFound />
                 : <Article article={article} />
                 }
             </Container>

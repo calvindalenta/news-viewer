@@ -1,0 +1,27 @@
+$primaryColor: #00bfb3;
+
+.container {
+    padding: 2em 1em;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    h2 {
+        color: grey;
+    }
+
+    a {
+        cursor: pointer;
+        color: $primaryColor;
+        font-weight: bold;
+        padding-top: 1em;
+
+        &:hover {
+            border-bottom: 2px solid $primaryColor;
+        }
+    }
+}
