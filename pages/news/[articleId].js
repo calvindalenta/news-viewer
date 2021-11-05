@@ -1,4 +1,6 @@
-import Header from "../../components/header/header";
+import Head from "next/head";
+
+import Header from "../../components/header/Header";
 import Container from "../../components/container/Container";
 import Article from "../../components/article/Article";
 import NotFound from "../../components/404/NotFound";
@@ -9,6 +11,10 @@ import Footer from "../../components/footer/Footer";
 export default function ArticlePage({ error, article }){
     return (
         <>
+            <Head>
+                <title>News Viewer - Article</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
             <Header nav={{to: "/login", text: "Login"}}/>
             <Container>
                 {error

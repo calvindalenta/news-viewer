@@ -1,0 +1,10 @@
+$primaryColor: #00bfb3;
+
+.link {
+    border-bottom: 1px solid grey;
+
+    &:hover {
+        color: $primaryColor;
+        border-bottom: 1px solid $primaryColor;
+    }
+}

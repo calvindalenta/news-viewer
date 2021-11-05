@@ -18,6 +18,9 @@ $primaryColor: #00bfb3;
 
     &__logo {
         cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 1em;
     }
 
     &__nav {

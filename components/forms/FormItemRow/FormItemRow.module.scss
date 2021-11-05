@@ -1,3 +1,12 @@
+.error {
+    font-size: 0.8em;
+    color: red;
+
+    @media screen and (min-width: 600px) {
+        margin-left: 100px;
+    }
+}
+
 .form-item-row {
     display: flex;
     flex-direction: column;
