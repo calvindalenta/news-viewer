@@ -11,7 +11,7 @@ Header.propTypes = {
     })
 }
 
-export default function Header({ nav }){
+export default function Header({ nav }) {
     return (
         <header className={style.header}>
             <a href="/">
