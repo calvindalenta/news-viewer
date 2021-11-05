@@ -7,11 +7,14 @@ import style from "./Card.module.scss";
 
 export default function Card({ data }){
     const { urlToImage, title, author, sourceName, description, publishedAt } = data
+    
+    // Find another alternative for generating unique urls
+    const newUrl = `/news/${publishedAt}`
 
     return (
         <article className={style.card}>
             <div className={style["card__media"]}>
-                <a>
+                <a href={newUrl}>
                     <img src={urlToImage} alt={title} />
                 </a>
             </div>
@@ -31,7 +34,9 @@ export default function Card({ data }){
                     {description}
                 </p>
                 <div className="card__action">
-                    <Button primary text="Read More" />
+                    <a href={newUrl}>
+                        <Button primary text="Read More" />
+                    </a>
                 </div>
             </section>
         </article>

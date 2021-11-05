@@ -18,7 +18,7 @@ export default function ArticlesList({ result }){
 export async function getServerSideProps(context) {
     return {
         props: {
-            result: JSON.parse(getArticles())
+            result: getArticles()
         }
     }
 }

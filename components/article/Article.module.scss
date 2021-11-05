@@ -1,0 +1,34 @@
+.article {
+    max-width: 800px;
+    border-radius: 8px;
+    padding: 1em 0;
+    margin: 3em auto;
+
+    &__media {
+        cursor: pointer;
+    }
+
+    &__header {
+        padding: 2em 0;
+    }
+
+    &__meta {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1em;
+
+        padding-bottom: 2em;
+    }
+
+    &__meta-item {
+        font-size: 0.9em;
+        color: grey;
+    }
+
+    &__action {
+        padding: 2em 0;
+        text-align: center;
+    }
+}
