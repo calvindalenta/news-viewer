@@ -1,0 +1,16 @@
+$primaryColor: #00bfb3;
+
+.form-input {
+    width: 100%;
+    padding: 0.8em;
+    font-family: Roboto, Poppins, sans-serif;
+    color: black;
+    background-color: white;
+    outline: 1px solid black;
+    border: none;
+    border-radius: 6px;
+    
+    &:focus {
+        outline: 1px solid $primaryColor;
+    }
+}

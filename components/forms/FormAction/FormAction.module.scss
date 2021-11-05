@@ -1,0 +1,13 @@
+.form-action {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    gap: 1em;
+    margin-top: 2em;
+
+    @media screen and (min-width: 600px) {
+        justify-content: start;
+    }
+}

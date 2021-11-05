@@ -1,0 +1,9 @@
+.form-sub-header {
+    color: grey;
+    font-size: 0.8em;
+    text-align: center;
+
+    @media screen and (min-width: 600px) {
+        text-align: left;
+    }
+}
