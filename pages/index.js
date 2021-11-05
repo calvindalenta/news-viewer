@@ -1,5 +1,7 @@
+import Header from "../components/header/header";
+
 export default function Home(props){
     return (
-        <p>You are in the home page!</p>
+        <Header nav={{to: "/login", text: "Login"}}/>
     );
 }
