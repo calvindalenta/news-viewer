@@ -7,6 +7,7 @@ import Form from "../components/forms/Form/Form";
 import FormAction from "../components/forms/FormAction/FormAction";
 import FormHeader from "../components/forms/FormHeader/FormHeader";
 import FormSubHeader from "../components/forms/FormSubHeader/FormHeader";
+import Button from "../components/button/Button";
 
 export default function Home(props){
     return (
@@ -28,8 +29,8 @@ export default function Home(props){
                     </FormSelect>
                 </FormItemRow>
                 <FormAction>
-                    <button type="reset">Reset</button>
-                    <button type="button">Register</button>
+                    <Button text="Reset"  type="reset" />
+                    <Button text="Register" primary type="button" />
                 </FormAction>
             </Form>
         </>
