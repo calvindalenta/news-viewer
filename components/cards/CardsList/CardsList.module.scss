@@ -1,0 +1,11 @@
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1em;
+
+    @media screen and (min-width: 600px) {
+        justify-content: flex-start;
+    }
+}

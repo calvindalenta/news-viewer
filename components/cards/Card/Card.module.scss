@@ -1,0 +1,31 @@
+.card {
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    &__media {
+        cursor: pointer;
+    }
+
+    &__content {
+        padding: 1em;
+    }
+
+    &__header, &__description {
+        padding-bottom: 1em;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1em;
+
+        padding-bottom: 1em;
+    }
+
+    &__list-item {
+        font-size: 0.8em;
+        color: grey;
+    }
+}
