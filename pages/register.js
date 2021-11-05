@@ -1,6 +1,7 @@
 import Header from "../components/header/header";
 import Container from "../components/container/Container";
 import RegisterForm from "../components/RegisterForm";
+import Footer from "../components/footer/Footer";
 
 export default function Login(props){
     return (
@@ -9,6 +10,7 @@ export default function Login(props){
             <Container>
                 <RegisterForm />
             </Container>
+            <Footer />
         </>
     );
 }

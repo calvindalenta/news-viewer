@@ -4,6 +4,7 @@ import Article from "../../components/article/Article";
 import NotFound from "../../components/404/NotFound";
 
 import { getArticleByTimestamp } from "../../lib/articles";
+import Footer from "../../components/footer/Footer";
 
 export default function ArticlePage({ error, article }){
     return (
@@ -15,6 +16,7 @@ export default function ArticlePage({ error, article }){
                 : <Article article={article} />
                 }
             </Container>
+            <Footer />
         </>
     );
 }
