@@ -64,7 +64,7 @@ export default function LoginForm(props){
             </FormItemRow>
             <FormAction>
                 <Button text="Reset" type="reset" onClick={onReset}/>
-                <Button primary text="Register" type="submit" />
+                <Button primary text="Login" type="submit" />
                 <FormSubHeader>
                     Don&apos;t have an account yet? {' '}
                     <StyledLink href="/register">Register here</StyledLink>
