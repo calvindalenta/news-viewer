@@ -10,7 +10,7 @@ import FormInput from "./forms/FormInput/FormInput";
 import FormItemRow from "./forms/FormItemRow/FormItemRow";
 import FormLabel from "./forms/FormLabel/FormLabel";
 import FormSelect from "./forms/FormSelect/FormSelect";
-import FormSubHeader from "./forms/FormSubHeader/FormHeader";
+import FormSubHeader from "./forms/FormSubHeader/FormSubHeader";
 import StyledLink from "./styled-link/StyledLink";
 
 const provinces = {
