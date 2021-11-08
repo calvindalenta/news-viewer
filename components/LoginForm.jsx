@@ -10,7 +10,7 @@ import FormHeader from "./forms/FormHeader/FormHeader";
 import FormInput from "./forms/FormInput/FormInput";
 import FormItemRow from "./forms/FormItemRow/FormItemRow";
 import FormLabel from "./forms/FormLabel/FormLabel";
-import FormSubHeader from "./forms/FormSubHeader/FormHeader";
+import FormSubHeader from "./forms/FormSubHeader/FormSubHeader";
 import StyledLink from "./styled-link/StyledLink";
 
 const initialState = { email: "", password: "" }
@@ -64,7 +64,7 @@ export default function LoginForm(props){
             </FormItemRow>
             <FormAction>
                 <Button text="Reset" type="reset" onClick={onReset}/>
-                <Button primary text="Register" type="submit" />
+                <Button primary text="Login" type="submit" />
                 <FormSubHeader>
                     Don&apos;t have an account yet? {' '}
                     <StyledLink href="/register">Register here</StyledLink>

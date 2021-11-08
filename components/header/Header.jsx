@@ -1,15 +1,8 @@
-import { string, shape } from "prop-types";
+import PropTypes from "prop-types";
 import Image from "next/image";
 import Link from "next/link";
 
 import style from "./Header.module.scss";
-
-Header.propTypes = {
-    nav: shape({
-        to: string,
-        text: string
-    })
-}
 
 export default function Header({ nav }) {
     return (
@@ -32,4 +25,19 @@ export default function Header({ nav }) {
             </nav>
         </header>
     );
+}
+
+Header.propTypes = {
+    /** Nav object with "to" (destination) and "text" (display text) inside it */
+    nav: PropTypes.shape({
+        to: PropTypes.string,
+        text: PropTypes.string
+    })
+};
+
+Header.defaultProps = {
+    nav: {
+        to: "/",
+        text: "Home"
+    }
 }
