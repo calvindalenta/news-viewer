@@ -1,7 +1,11 @@
 # News Viewer
-## Made for Sagara Teknologi's Frontend Developer Test
 
 This project was made using [React](https://reactjs.org/), [Next.js](https://nextjs.org/) and bootstrapped with [Create Next App](https://nextjs.org/docs/api-reference/create-next-app).
+
+#### [See the website here](https://news-viewer.vercel.app/) 
+#### Interested to see all the components? [Check here](https://6188e7b8203f90003a78cce5-kdjhylbzyr.chromatic.com/)
+
+<hr />
 
 Pages available:
 - /news
